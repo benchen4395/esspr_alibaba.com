@@ -2,6 +2,13 @@
 The simple data arrangement of similar products retrieval platform for the `search`, `homepage recommender` and `you-shopping-history` modules in alibaba.com (APP version). This function is based on an unified crossmodal (vision-language) model, and its implement details is showed in the paper:
 "Unified Vision-Language Representation Modeling for E-Commerce Same-Style Products Retrieval".
 
+<p align="center">
+  <img width="500" height="171" src="https://github.com/benchen4395/esspr_alibaba.com/blob/main/model_implement_details/model_structure.png">
+</p>
+<h5 align="center">
+The overview of proposed contrastive loss unit. We mainly show the PPM construction method for brevity.
+</h5>
+
 Here we provide:
 
 1、10 pairs annotated testing data cases (random sampled from all 4196 pairs).
@@ -28,4 +35,11 @@ Beside the image-to-image, text-to-text, (image+text)-to-(image+text), we also p
 |eSSPR m-m|**0.9197**|**0.8870**|**0.9619**|**0.9761**|**0.9879**|
 
 ## Application Demo
-You can find the corresponding demo of similar products retrieval at alibaba.com (APP version)at [Alibaba.com Similar Products Retrieval Demo](https://pan.baidu.com/s/1zozt_PRfG2ddxeYaw67dgA?pwd=276p).
+<p align="center">
+  <img width="450" height="300" src="https://github.com/benchen4395/esspr_alibaba.com/blob/main/model_implement_details/psp_demo.jpg">
+</p>
+<h5 align="center">
+Similar products retrieval platform for search engine in alibaba.com
+</h5>
+
+You can find the corresponding video demo of similar products retrieval at alibaba.com (APP version) at [Alibaba.com Similar Products Retrieval Demo](https://pan.baidu.com/s/1zozt_PRfG2ddxeYaw67dgA?pwd=276p).
