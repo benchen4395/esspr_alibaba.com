@@ -1,5 +1,5 @@
 ## Introduction
-The simple data arrangement of similar products retrieval platform for the `search`, `homepage recommender` and `you-shopping-history` modules in alibaba.com (APP version). This function is based on an unified crossmodal (vision-language) model, and its implement details in show in the paper:
+The simple data arrangement of similar products retrieval platform for the `search`, `homepage recommender` and `you-shopping-history` modules in alibaba.com (APP version). This function is based on an unified crossmodal (vision-language) model, and its implement details is showed in the paper:
 "Unified Vision-Language Representation Modeling for E-Commerce Same-Style Products Retrieval".
 
 Here we provide:
@@ -12,7 +12,7 @@ Here we provide:
 
 4、The application demo of proposed methods in alibaba.com (APP version).
 
-All data, code implements will be released to public through the official repository, as well as the adaptive testing for modern dual-stream models like CLIP  and Align.
+All data, code implements will be released to public through [official repository](https://github.com/alibaba), as well as the adaptive testing for modern dual-stream models like CLIP  and Align.
 
 ## Offiline cross-modal testing results
 Beside the image-to-image, text-to-text, (image+text)-to-(image+text), we also provide the results of `image-to-text`, `text-to-image`, `image-to-(image+text)` and `text-to-(image+text)` cross-modal testings. **All data presented are the average values of the metrics for all testings.**
