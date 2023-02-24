@@ -12,7 +12,7 @@ The simple data arrangement of similar products retrieval platform proposed in t
 Similar products retrieval platform for search engine in alibaba.com
 </h5>
 
-### Abstract:
+#### Abstract:
 
 Same-style products retrieval plays an important role in e-commerce platforms, aiming to identify the same products which may have different text descriptions or images. It can be used for similar products retrieval from different suppliers or duplicate products detection of one supplier. Here we propose a unified vision-language modeling method for e-commerce same-style products retrieval, which is designed to represent one product with its textual descriptions and visual contents. It contains one sampling skill to collect positive pairs from user click log with category and relevance constrained, and a novel contrastive loss unit to model the image, text, and image+text representations into one joint embedding space. 
 
@@ -25,7 +25,7 @@ It is capable of cross-modal product-to-product retrieval, as well as style tran
 The overview of proposed contrastive loss unit. We mainly show the PPM construction method for brevity.
 </h5>
 
-### Content in it:
+#### Content in it:
 
 1、10 pairs annotated testing data cases (random sampled from all 4196 pairs).
 
@@ -35,7 +35,7 @@ The overview of proposed contrastive loss unit. We mainly show the PPM construct
 
 4、The application demo of proposed methods in alibaba.com (APP version).
 
-### As a side note:
+#### As a side note:
 All data, code implements may be released to public through [official repository](https://github.com/alibaba), as well as the adaptive testing results for modern dual-stream models like CLIP  and Align.
 
 ## Offiline cross-modal testing results
