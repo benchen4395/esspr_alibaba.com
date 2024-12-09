@@ -12,6 +12,20 @@ The simple data arrangement of similar products retrieval platform proposed in t
 Similar products retrieval platform for search engine in alibaba.com
 </h5>
 
+### Dataset is public !!!
+-- Now we release the training and eval datasets for public research.
+- [Training dataset](https://huggingface.co/datasets/benchen4395/esspr_data4train): All (a total of 31 million item pairs) are the same with those for the experiments of esspr.
+- [Eval dataset](https://huggingface.co/datasets/benchen4395/esspr_data4eval): a total 5196 manually annotated pairs covering 15 industries and 973 sub-categories for the offline testing.
+
+The data format is formulated as: 'cate_lv1_name,cate_name,trigger_id,tirgger_title,recall_id,recall_title,trigger_img,recall_img,label'
+
+Both the image and title for each item are online grapped, with only id_value is virtual, in order to protect privacy.
+
+-- __If you use this dataset, please cite this article. Thanks.__
+
+
+
+
 #### Abstract:
 
 Same-style products retrieval plays an important role in e-commerce platforms, aiming to identify the same products which may have different text descriptions or images. It can be used for similar products retrieval from different suppliers or duplicate products detection of one supplier. Here we propose a unified vision-language modeling method for e-commerce same-style products retrieval, which is designed to represent one product with its textual descriptions and visual contents. It contains one sampling skill to collect positive pairs from user click log with category and relevance constrained, and a novel contrastive loss unit to model the image, text, and image+text representations into one joint embedding space. 
